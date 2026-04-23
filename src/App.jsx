@@ -8,7 +8,7 @@ function ThemeToggle({ theme, setTheme }) {
   return (
     <button
       type="button"
-      onClick={() => setTheme((prev) => (prev === 'light' ? 'light' : 'dark'))}
+      onClick={() => setTheme((prev) => (prev === 'dark' ? 'light' : 'dark'))}
       className="rounded-full border border-slate-300 bg-white px-4 py-2 text-xs font-semibold tracking-[0.14em] text-slate-700 transition hover:border-slate-500 dark:border-white/20 dark:bg-white/5 dark:text-white"
       aria-label="Toggle theme"
     >
